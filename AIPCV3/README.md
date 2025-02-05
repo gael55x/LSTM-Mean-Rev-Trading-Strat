@@ -1,8 +1,3 @@
-Below is an updated version of your README that reflects your deployment on AWS ECS. You can adjust details (such as AWS account, region, resource names, etc.) to fit your environment.
-
----
-
-```markdown
 # LSTM Mean Reversion Strategy API
 
 This repository contains a FastAPI application that implements an LSTM-based mean reversion trading strategy. It downloads ticker data via **yfinance**, preprocesses the data with technical indicators, trains an LSTM model for price prediction, and simulates trading signals on test data.
