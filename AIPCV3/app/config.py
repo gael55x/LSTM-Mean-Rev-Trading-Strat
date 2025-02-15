@@ -4,7 +4,7 @@ import datetime
 SEQ_LENGTH = 60
 FEATURES = ['Close', 'pctB', 'RSI', 'MACD', 'Signal_Line', 'Momentum', 'ATR']
 TICKER = 'BTC-USD'
-DATA_DAYS = 7 * 365  # Data range: 7 years
+DATA_DAYS = 7 * 365  
 
 # Global state variables
 MODEL = None
